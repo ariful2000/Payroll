@@ -9,10 +9,10 @@ public class payroll {
 		  Scanner input = new Scanner(System.in);
 		 
 	      System.out.println("Enter employee's first name: ");
-	      firstName = input.next();
+	      firstName = input.nextLine();
 	      
 	      System.out.println("Enter employee's last name: ");
-	      lastName = input.next();
+	      lastName = input.nextLine();
 	 
 	      System.out.println("Enter number of hours " + firstName.toUpperCase() + " " + lastName.toUpperCase() + " worked:");
 	      double  hours = input.nextDouble();
