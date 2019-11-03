@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class payroll {
 	public static void main(String[] args) {
 		
-		 String firstName, lastName;
+		  String firstName, lastName;
 
 		  Scanner input = new Scanner(System.in);
 		 
@@ -14,7 +14,7 @@ public class payroll {
 	      System.out.println("Enter employee's last name: ");
 	      lastName = input.next();
 	 
-	      System.out.println("Enter number of hours worked:");
+	      System.out.println("Enter number of hours " + firstName.toUpperCase() + " " + lastName.toUpperCase() + " worked:");
 	      double  hours = input.nextDouble();
 	 
 	      System.out.println("Enter hourly rate of pay:");
